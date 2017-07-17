@@ -1,5 +1,7 @@
 # is-unix
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kikobeats/is-unix.svg)](https://greenkeeper.io/)
+
 ![Last version](https://img.shields.io/github/tag/Kikobeats/is-unix.svg?style=flat-square)
 [![Build Status](https://img.shields.io/travis/Kikobeats/is-unix/master.svg?style=flat-square)](https://travis-ci.org/Kikobeats/is-unix)
 [![Coverage Status](https://img.shields.io/coveralls/Kikobeats/is-unix.svg?style=flat-square)](https://coveralls.io/github/Kikobeats/is-unix)
