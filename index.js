@@ -4,13 +4,13 @@ module.exports = (platform = '') => {
   platform = platform.toLowerCase()
   return (
     [
-      'linux',
+      'aix',
+      'android',
       'darwin',
       'freebsd',
-      'sunos',
-      'aix',
+      'linux',
       'openbsd',
-      'android'
+      'sunos'
     ].indexOf(platform) !== -1
   )
 }
