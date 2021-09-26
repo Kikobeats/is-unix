@@ -4,6 +4,8 @@ const test = require('ava')
 
 const isUNIX = require('..')
 
-;['linux', 'darwin', 'freebsd', 'sunos'].forEach(input => {
-  test(input, t => t.true(isUNIX(input)))
-})
+;['aix', 'android', 'darwin', 'freebsd', 'linux', 'openbsd', 'sunos'].forEach(
+  input => {
+    test(input, t => t.true(isUNIX(input)))
+  }
+)
